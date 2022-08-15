@@ -1,0 +1,109 @@
+/* Reset CSS */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Common */
+body {
+    font-family: 'Oswald', sans-serif;
+}
+
+/* Header */
+#header {
+    display: flex;
+    justify-content: space-between;
+    background-color: #000;
+    color: #fff;
+    position: fixed;
+    left: 0;
+    right: 0;
+    top: 0;
+    z-index: 5;
+}
+
+/* Header left */
+#header-left {
+    display: flex;
+}
+
+.header-icon {
+    padding: 8px 16px;
+}
+
+.header-icon:hover {
+    background-color: rgb(221, 221, 221);
+    color: #000;
+    cursor: pointer;
+}
+
+/* Content */
+
+/* Head content */
+#head-content {
+    text-align: center;
+    padding: 48px 16px;
+    margin-top: 40px;
+}
+
+#head-content h1 {
+    font-size: 48px;
+    font-weight: 500;
+}
+
+#head-content .text-important {
+    background-color: #000;
+    color: #fff;
+    padding: 0 8px;
+}
+
+/* Banner */
+#banner {
+    position: relative;
+    height: 1060px;
+}
+
+#banner .banner-img {
+    position: absolute;
+}
+
+#banner .banner-content {
+    position: absolute;
+    top: 44%;
+    left: 0;
+    color: #fff;
+    padding: 12px 24px;
+}
+
+#banner .banner-content h2 {
+    font-size: 36px;
+    font-weight: 400;
+}
+
+#banner .banner-content h1 {
+    font-size: 64px;
+    font-weight: 500;
+}
+
+#banner .banner-content .btn-sub {
+    font-size: 18px;
+    padding: 12px 24px;
+    opacity: 0.6;
+    cursor: pointer;
+    font-family: 'Oswald';
+}
+#banner .banner-content .btn-sub:hover {
+    opacity: 0.8;
+}
+
+
+
+
+
+
+
+
+
+
+
